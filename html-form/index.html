@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran</h1>
+    <form action="">
+        <table>
+            <table>
+                <p>Biodata Diri</p>
+    
+                <p>Masukkan data dibawah ini dengan benar!</p>
+            <tr>
+                <td>Nama Depan</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Nama Belakang</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td><input type="radio" name="jk">Laki - Laki
+                    <input type="radio" name="jk">Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>Tempat Lahir</td>
+                <td><input type="text" placeholder="Kota tempat lahir"></td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td><input type="date"></td>
+            </tr>
+            </table>
+            
+            <table>
+            <p>Alamat Lengkap</p>
+            <tr>
+                <td>Provinsi</td>
+                <td><select name="provinsi" id="" placeholder="Pilih Provinsi">
+                    <option value="">Pilih Provinsi</option>
+                    <option value="">Aceh</option>
+                    <option value="">Jakarta</option>
+                    <option value="">Jawa Barat</option>
+                </td></select>
+            </tr>
+            <tr>
+                <td>Kota</td>
+                <td><select name="kota" id="" placeholder="Pilih Kota">
+                    <option value="">Pilih Kota</option>
+                    <option value="">Jakarta</option>
+                    <option value="">Bandung</option>
+                    <option value="">Aceh</option>
+                </td></select>
+            </tr>
+            <tr>
+                <td>Kecamatan</td>
+                <td><select name="Kecamatan" id="" placeholder="Pilih Kecamatan">
+                    <option value="">Pilih Kecamatan</option>
+                    <option value="">Sukarame</option>
+                    <option value="">Sukasuka</option>
+                    <option value="">Cijahe</option>
+                </td></select>
+            </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td><textarea cols="30" rows="10"></textarea></td>
+                </tr>
+        </table>
+
+        <table>
+            <p>Akun </p>
+            <tr>
+                <td>Email</td>
+                <td><input type="text" placeholder="Alamat email aktif"></td>
+            </tr>
+            <tr>
+                <td>Username</td>
+                <td><input type="id" placeholder="Maksimal 10 karaker"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" placeholder="Masukkan password"></td>
+            </tr>
+            <tr>
+                <td>Konfirmasi Password</td>
+                <td><input type="password" placeholder="Masukkan kembali password"></td>
+            </tr>
+        </table>
+
+        <table>
+            <P>Syarat dan ketentuan</p>
+            <p>Dengan memilih "Setuju" anda sudah mengikuti <u>Syarat dan ketentuan</u>yang berlaku</p>
+            <tr>
+                <td></td>
+                <td><input type="checkbox">Setuju</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Daftar"></td>
+                <td><input type="submit" value="Reset"></td>
+            </tr>
+        </table>
+
+        </table>
+    </form>
+
+</body>
+</html>
